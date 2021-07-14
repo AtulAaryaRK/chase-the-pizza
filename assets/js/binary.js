@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.4.45/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.4.45","repo":"atulaaryark/chase-the-pizza"}
-// total=1412788 new=5.31% cached=89.32% other=5.37%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.4.45/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"2.0.0","target":"arcade","targetVersion":"1.4.45","repo":"atulaaryark/chase-the-pizza"}
+// total=1412787 new=5.31% cached=89.32% other=5.37%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("Chase the Pizza");
+pxsim.setTitle("Chase the Gold");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -449,7 +449,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P39312(s) {
+function _main___P39483(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -864,13 +864,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P39312.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P39312.continuations = [  ]
+_main___P39483.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P39483.continuations = [  ]
 
-function _main___P39312_mk(s) {
+function _main___P39483_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P39312, depth: s.depth + 1,
+        parent: s, fn: _main___P39483, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -48192,5 +48192,5 @@ const effects_SceneAnchor__C24072_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["pizza___39258","mySprite___39267"])
 
-return _main___P39312
+return _main___P39483
 })
